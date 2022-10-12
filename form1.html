@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Form 2</title>
+		<style type="text/css">
+			table{
+				
+				margin-left:490px;
+				background-color: lightblue;
+			}
+		</style>
+	</head>
+<body>
+
+
+	<h2 align="center">Registration Form</h2>
+	
+	<form method="POST" action="http://localhost/Myprojects/register.php">
+
+		<table>
+
+		<tr><td>First Name:</td><td> <input type="text" name="firstname"></td></tr>
+		<tr><td>Last Name: </td><td><input type="text" name="lastname"></td></tr>
+		<tr><td>Username:</td><td> <input type="username" name="username"></td><td>
+		<tr><td>Password:</td><td> <input type="password" name="password"></td></tr>
+		
+		<tr> <td colspan="2">Gender:</td></tr>
+		<tr><td></td><td><input type="radio" name="gender" value="male"> Male</td></tr>
+		<tr><td></td><td><input type="radio" name="gender" value="female"> Female</td></tr>
+		<tr> <td colspan="2">Academic Year:</td></tr>
+		<td></td>
+		<td>
+		<select name="year">
+		  <option value="first_yr">1st Year</option>
+		  <option value="second_yr">2nd Year</option>
+		  <option value="third_yr">3rd Year</option>
+		  <option value="fourth_yr">4th Year</option>
+		</select>
+	    </td>
+
+		<tr><td>Email :</td> <td><input type="text" name="email"></td></tr>
+		<tr><td>Phone No :</td> <td><input type="text" name="phone"></td></tr>
+		
+		<tr><td></td><td><input type="submit" name="submit"></td></tr>
+	</table>
+	</form>
+
+</body>
+</html>
